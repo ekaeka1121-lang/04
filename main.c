@@ -2,37 +2,13 @@
 
 int main (void)
 { 
-    int x, y;
-    int res;
-    //scanf
-    printf("Input two integers:");
-    scanf("%i %i", &x, &y);
-    
-    //operation
-    res = x + y;
-    //printf
-    printf("%i + %i = %i\n" , x, y , res);
+    int sec;
 
-    //operation
-    res = x - y;
-    //printf
-    printf("%i - %i = %i\n" , x, y , res);
+    printf("Input the second :");
+    scanf("%i", &sec);
 
-    //operation
-    res = x * y;
-    //printf
-    printf("%i * %i = %i\n" , x, y , res);
+    printf("Time is %i:%i\n", sec/60, sec%60);
 
-    //operation
-    res = x / y;
-    //printf
-    printf("%i / %i = %i\n" , x, y , res);
-
-    //operation
-    res = x % y;
-    //printf
-    printf("%i %% %i = %i\n" , x, y , res);
-    
     return 0;
 
 }
